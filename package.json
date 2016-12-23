@@ -80,11 +80,14 @@
     "nodebb-plugin-imagemagick": "2.0.4",
     "nodebb-widget-search-bar": "1.0.3",
 
-    "nodebb-plugin-sso-facebook": "3.0.3",
+    "nodebb-plugin-sso-facebook": "3.0.4",
     "nodebb-plugin-sso-google": "2.0.1",
     "nodebb-plugin-sso-twitter": "2.3.0",
 
     "nodebb-plugin-assign-newuser-to-group": "0.0.2",
+
+    "nodebb-plugin-imgur": "1.0.18",
+    "nodebb-plugin-s3-uploads-updated": "0.3.13",
 
     "nodebb-plugin-gravatar": "2.0.4",
     "nodebb-plugin-embed-gmap": "0.2.0",

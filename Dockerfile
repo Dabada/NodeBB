@@ -7,6 +7,9 @@ ENV NODE_ENV=production \
     daemon=false \
     silent=false
 
+RUN apt-get update \
+    && apt-get install -y net-tools
+
 # nodebb setup will ask you for connection information to a redis (default), mongodb then run the forum
 # nodebb upgrade is not included and might be desired
 CMD node app --setup && npm start
